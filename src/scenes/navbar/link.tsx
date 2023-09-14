@@ -21,7 +21,7 @@ const link = ({
    className={`${selectedPage === lowerCasePage ? "text-primary-500" : ""}
    transition duration-500 hover:text-primary-300`}
    href={`#${lowerCasePage}`}
-   onCLick={() => setSelectedPage(lowerCasePage)}
+   onClick={() => setSelectedPage(lowerCasePage)}
    >
     {page}
    </AnchorLink>
